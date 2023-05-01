@@ -1,1 +1,6 @@
+com\agustin\SpringBoot\service\PersonaService.class
+com\agustin\SpringBoot\Controller\Controller.class
+com\agustin\SpringBoot\service\IPersonaService.class
 com\agustin\SpringBoot\Application.class
+com\agustin\SpringBoot\model\Persona.class
+com\agustin\SpringBoot\dao\PersonaRepository.class
