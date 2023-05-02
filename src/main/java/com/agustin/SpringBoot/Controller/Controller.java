@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
+@CrossOrigin(origins = "https://argentina-programa-14751.web.app")
 public class Controller {
     
     @Autowired
@@ -32,7 +33,6 @@ public class Controller {
         return persoServ.verPersonas();
     }
     
-    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping ("/buscar/{id}")
     public Persona buscarPersona(@PathVariable Long id){
         return persoServ.buscarPersona(id);
